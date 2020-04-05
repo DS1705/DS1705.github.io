@@ -1,0 +1,47 @@
+.btn-primary{
+background-color: #3b5249;
+    color: #cdd3d5;
+    border-color: #3b5249;
+}
+.btn-primary:hover{
+    background-color: #cdd3d5;
+    color: #3b5249;
+}
+.btn-primary:active{
+    background-color: #cdd3d5;
+    color: #3b5249;
+}
+.btn-primary:link{
+    background-color: #3b5249!important;
+    color: #cdd3d5!important;
+}
+.btn-primary.dropdown-toggle{
+    background-color: #3b5249!important;
+    color: #cdd3d5!important;
+    box-shadow: none!important;
+}
+.bg-secondary{
+    background-color: #7f7c65 !important;
+}
+
+
+.bg-primary{
+    background-color: #3b5249 !important;
+}
+
+.jumbotron{
+    background-image: url("../img/large.welcome_to_the_ark___commission_by_scutal-dc4yepj.jpg.fec2ea7b89dcde77d2938b397033b2ce.jpg");
+    background-size: cover;
+}
+.text-color{
+    color: #cdd3d5!important;
+}
+.appbadge{
+    width: 20%;
+}
+
+@media only screen and (max-width: 768px){
+    .appbadge{
+        width: 50%;
+    }
+}
